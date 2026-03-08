@@ -801,7 +801,8 @@ Click the approve button in the email — confirmation email arrives and finding
 <p></p>
 <img width="668" height="682" alt="23 p15 email approve" src="https://github.com/user-attachments/assets/b2f47d32-f143-48ce-9e77-984017c0c12c" />
 <p></p>
-
+<img width="1889" height="920" alt="24 p16 s3 after conf" src="https://github.com/user-attachments/assets/1b61edd8-9eb1-4fe7-b0e7-f11c4fcbebc5" />
+<p></p>
 </details>
 
 ---
