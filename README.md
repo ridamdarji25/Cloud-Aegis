@@ -5,9 +5,36 @@
 ![Cloud Security](https://img.shields.io/badge/Domain-Cloud%20Security-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Built this on my personal AWS account as a hands-on cloud security implementation. The idea was simple — wire AWS services together so that the moment something in my account becomes publicly exposed, it gets detected, blocked automatically, and I get an email to approve or restore it. No frontend, no third-party tools, no frameworks. Just AWS doing what it's built to do.
+Cloud Aegis is a real-time threat detection and auto-remediation implementation for AWS cloud infrastructure.
+
+---
+
+## The Problem
+
+In recent months, YouTube's automated content moderation system deleted thousands of creator videos without warning, review, or appeal. Channels built over years were wiped because an automated system made a call and nothing questioned it.
+
+The same risk exists in cloud infrastructure. Automated systems can block resources, revoke access, and isolate infrastructure — and sometimes they get it wrong. A bucket that was intentionally public for a deployment. An EC2 that needed a public IP temporarily. Full automation without a human checkpoint can fix one problem and silently create another.
+
+**Cloud Aegis is built around that exact balance — act fast, but always ask.**
+
+---
+
+## The Solution
+
+The moment a resource in the AWS account becomes publicly accessible, the system detects it, scores the risk, and automatically isolates it. Once blocked, an HMAC-signed email is sent with one question:
+
+**"Was this intentional — or should the block stay?"**
+
+- ✅ Restore access — one click  
+- 🔒 Keep it blocked — one click  
+
+System acts first. Human decides after.
+
+No frontend. No third-party tools. No frameworks. Just AWS services wired together to detect and respond to exposure threats automatically.
 
 The exposure is usually blocked before I even finish reading the alert.
+
+---
 
 **By the numbers**
 
