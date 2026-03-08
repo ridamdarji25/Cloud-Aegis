@@ -621,6 +621,8 @@ aws logs put-resource-policy \
 
 > CloudWatch Logs error during creation → use **Create new role** instead. Then go to IAM, find the auto-created role, and add an inline policy with `lambda:InvokeFunction` on all 4 aegis Lambda ARNs.
 
+<img width="1900" height="990" alt="14 p11 api gateway" src="https://github.com/user-attachments/assets/59834e89-0c0f-40be-84bb-7fad4ffcbbfb" />
+
 </details>
 
 ---
@@ -655,6 +657,8 @@ Repeat for each alarm:
 4. Conditions → Greater than → **0**
 5. Notification → In alarm → **aegis-alerts**
 6. Alarm name → (see table) → **Create alarm**
+
+<img width="1913" height="960" alt="15 p12 cw alarms" src="https://github.com/user-attachments/assets/dd50c0ae-8125-4fea-8227-2464660b2edb" />
 
 </details>
 
@@ -699,6 +703,8 @@ Config → Rules → **Add rule** → search each rule name → Next → Save
 
 Or use CloudShell (faster) — all commands in `config/config-rules.md`.
 
+<img width="1904" height="962" alt="16 p13 config rules" src="https://github.com/user-attachments/assets/404b777f-654a-444c-a373-2c85e66a3aa5" />
+
 </details>
 
 ---
@@ -721,6 +727,8 @@ Enable centralized security findings. Every time `aegis-remediator` runs, it pus
 3. **Enable Security Hub** → wait for it to initialise
 
 After the Phase 15 test, check Security Hub → Findings — the aegis finding will appear there automatically.
+
+<img width="1767" height="1077" alt="17 p14 sec hub" src="https://github.com/user-attachments/assets/05d9f88c-ddca-4366-afce-354e9f2cdb72" />
 
 </details>
 
@@ -798,6 +806,8 @@ Click the approve button in the email — confirmation email arrives and finding
 **Config recorder failed** — Use the CloudShell method in config-rules.md.
 
 **403 on approve/restore button** — API_GATEWAY_URL in aegis-remediator doesn't match prod stage URL. Or approval_token_secret changed after findings were stored.
+
+
 
 </details>
 
