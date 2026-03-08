@@ -828,16 +828,13 @@ Click the approve button in the email — confirmation email arrives and finding
 
 ---
 
-## 🧾 Author
+## 👨‍💻 Built by
 
 **Ridam Darji**
 
 Cloud Security · AWS · Hands-on builder
 
-[LinkedIn](https://www.linkedin.com/in/ridamdarji/) · [GitHub](https://github.com/ridamdarji25)
+[LinkedIn](https://www.linkedin.com/in/ridamdarji/) · w1tn3sss
 
 ---
 
-## License
-
-MIT License
