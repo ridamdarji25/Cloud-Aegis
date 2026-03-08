@@ -788,6 +788,20 @@ Wait 3–15 minutes. CloudTrail propagation delay is normal — the event travel
 
 Click the approve button in the email — confirmation email arrives and finding status in DynamoDB updates to INTENTIONAL.
 
+<p></p>
+<img width="1919" height="882" alt="18 p15 test s3" src="https://github.com/user-attachments/assets/c251c1d9-5cb5-4a86-abfd-8cf5f299bdf4" />
+<p></p>
+<img width="1880" height="964" alt="19 p15 s3 before conf" src="https://github.com/user-attachments/assets/292aefec-cda1-4307-a738-713c2c5faf19" />
+<p></p>
+<img width="1919" height="988" alt="20 p15 workflow" src="https://github.com/user-attachments/assets/d9a694ad-51da-45e3-9d7c-fbd7f82f60e7" />
+<p></p>
+<img width="1607" height="891" alt="21 p15 email" src="https://github.com/user-attachments/assets/0aa4a7f9-be06-4494-afbb-42b020b85976" />
+<p></p>
+<img width="755" height="715" alt="22 p15 email reject" src="https://github.com/user-attachments/assets/f99c91d4-b586-47a4-aafc-83d07d9b9d25" />
+<p></p>
+<img width="668" height="682" alt="23 p15 email approve" src="https://github.com/user-attachments/assets/b2f47d32-f143-48ce-9e77-984017c0c12c" />
+<p></p>
+
 </details>
 
 ---
