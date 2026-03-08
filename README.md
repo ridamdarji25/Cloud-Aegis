@@ -467,6 +467,7 @@ Repeat for each function:
 
 > Leave `API_GATEWAY_URL` in aegis-remediator as a placeholder — you'll fill it after Phase 10.
 
+<img width="1901" height="955" alt="10 p8 lambdas" src="https://github.com/user-attachments/assets/715b1d19-2b2c-4334-8c49-c830ecce77f4" />
 
 </details>
 
@@ -508,6 +509,7 @@ Repeat for each rule:
 
 > When you select Custom pattern, the Event source dropdown may switch to "Other" — UI quirk, ignore it.
 
+<img width="1896" height="1006" alt="11 p9 eventbridge rules" src="https://github.com/user-attachments/assets/3cce6277-8651-47fa-9539-ca851ea49074" />
 
 </details>
 
@@ -556,6 +558,10 @@ GET /restore
 1. Lambda → `aegis-remediator` → Code tab
 2. Replace `API_GATEWAY_URL` placeholder with your Invoke URL
 3. **Deploy**
+
+<img width="1919" height="980" alt="12 p10 cloud watch" src="https://github.com/user-attachments/assets/1cc8b51a-fdef-4c7c-87d0-47be0dc17c0a" />
+<p></p>
+<img width="1919" height="980" alt="13 p10 state machine" src="https://github.com/user-attachments/assets/7156262e-e50b-44a9-a926-701be29c0bdf" />
 
 </details>
 
