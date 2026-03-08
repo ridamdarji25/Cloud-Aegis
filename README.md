@@ -21,9 +21,10 @@ The exposure is usually blocked before I even finish reading the alert.
 ---
 
 ## 🗺️ Architecture Diagram
+<p></p>
+<img width="7369" height="3713" alt="Ageis Cloud" src="https://github.com/user-attachments/assets/f0c944e8-25e0-47a8-ac91-a3e9c065e663" />
 
-> Coming soon — will be attached here.
-
+<p></p>
 ---
 
 ## ⚡ How It Works
