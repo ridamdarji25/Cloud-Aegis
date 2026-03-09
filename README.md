@@ -552,7 +552,7 @@ Repeat for each rule:
 
 Create the two endpoints that handle approve and restore button clicks from the alert email. Both route to `aegis-approval`. All URLs are HMAC-signed — invalid tokens return 403.
 
-Full setup → [apigateway/api-gateway.md](./apigateway/apigateway.md)
+Full setup → [apigateway/apigateway.md](./apigateway/apigateway.md)
 
 ### Endpoints
 
@@ -604,7 +604,7 @@ GET /restore
 
 Create the state machine that wires all 4 Lambda functions together in a supervised pipeline. Every task state has retry with exponential backoff. Logging is set to ALL level so you can trace exactly what happened in every execution.
 
-Full setup + ASL → [stepfunctions/step-functions.md](./stepfunctions/step-functions.md)
+Full setup + ASL → [stepfunctions/step-functions.md](./step-functions/step-functions.md)
 
 ### State Machine Config
 
