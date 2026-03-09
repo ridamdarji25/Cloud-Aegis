@@ -552,7 +552,7 @@ Repeat for each rule:
 
 Create the two endpoints that handle approve and restore button clicks from the alert email. Both route to `aegis-approval`. All URLs are HMAC-signed — invalid tokens return 403.
 
-Full setup → [apigateway/api-gateway.md](./apigateway/api-gateway.md)
+Full setup → [apigateway/api-gateway.md](./apigateway/apigateway.md)
 
 ### Endpoints
 
